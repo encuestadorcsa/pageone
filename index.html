@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lección 001</title>
+    <style>
+
+        .flex-container {
+            display: flex;
+        }
+
+        header {
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+        }
+
+        .izquierda {
+            width: 30%;
+        }
+
+        .izquierda ul {
+            list-style: none;
+        }
+
+        .izquierda ul li {
+            margin-top: 1%;
+        }
+
+        .derecha {
+            width: 70%;
+
+        }
+        header ul {
+            list-style: none;
+            display: flex;
+            padding-right: 10%;
+        }
+        header ul li {
+            display: block;
+            padding: 10px;
+            /* margin: 50px; */
+        }
+        article p {
+            width: 70%;
+            text-align: justify;
+        }
+
+        .liani ul {
+            display: none;
+        }
+
+        .liani:hover ul {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div><p>Fundamentos de ######## ######</p></div>
+        <div><ul>
+                <li>Inicio</li>
+                <li>Documentos</li>
+                <li>Pruebas</li>
+                <li>Contacto</li>
+             </ul>
+        </div>
+    </header>
+    <div class="flex-container">
+        <div class="izquierda">
+            <ul>
+                    <li class="liani">Unidad #1<ul>
+                        <li>XX</li>
+                        <li>zz</li>
+                        <li>yy</li>
+                    </ul></li>
+                    <li class="liani">Unidad #2<ul>
+                        <li>XX</li>
+                        <li>zz</li>
+                        <li>yy</li>
+                    </ul></li>
+                    <li class="liani">Unidad #3<ul>
+                        <li>XX</li>
+                        <li>zz</li>
+                        <li>yy</li>
+                    </ul></li>
+                    <li class="liani">Unidad #4<ul>
+                        <li>XX</li>
+                        <li>zz</li>
+                        <li>yy</li>
+                    </ul></li>
+                </ul>
+        </div>
+        <div class="derecha">
+            <article>
+                <h5>Articulo #1</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit suscipit, fugit inventore deleniti minus vel exercitationem, ratione repudiandae cum iste nemo sit, quo veniam accusantium tempora asperiores nulla dolores soluta.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda natus reiciendis iste fugiat nisi harum dolores ducimus odio nostrum vitae officia, repudiandae, ut dolorum, ex deserunt aspernatur doloribus explicabo?
+                Ullam dignissimos eaque non ea soluta minus? Amet alias possimus cumque, beatae aspernatur commodi maxime optio. Ducimus saepe dolore fugit rerum, corporis labore deleniti aliquam repudiandae reiciendis consequatur molestiae consectetur.
+                Quidem quibusdam consequatur totam fugit omnis numquam id quam praesentium ut rerum unde itaque accusantium veniam sapiente consectetur dolor sequi cum, quisquam quod culpa, delectus deleniti. Quod beatae doloribus corrupti?
+                Id atque eius mollitia rem dicta saepe eveniet minus error veniam perspiciatis, nihil magnam voluptatibus, nulla, nobis vero vel consequuntur amet. Quam corporis aliquam molestiae vel velit quisquam commodi quas?
+                Delectus, enim accusamus ullam dolorum qui dolore provident tempore nisi doloribus distinctio excepturi doloremque! Rerum distinctio doloribus dignissimos quibusdam voluptas quaerat illo fuga laboriosam quae, aperiam magni. Non, enim voluptatem!</p>
+            </article>
+
+            <article>
+                <h5>Articulo #2</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit suscipit, fugit inventore deleniti minus vel exercitationem, ratione repudiandae cum iste nemo sit, quo veniam accusantium tempora asperiores nulla dolores soluta.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda natus reiciendis iste fugiat nisi harum dolores ducimus odio nostrum vitae officia, repudiandae, ut dolorum, ex deserunt aspernatur doloribus explicabo?
+                Ullam dignissimos eaque non ea soluta minus? Amet alias possimus cumque, beatae aspernatur commodi maxime optio. Ducimus saepe dolore fugit rerum, corporis labore deleniti aliquam repudiandae reiciendis consequatur molestiae consectetur.
+                Quidem quibusdam consequatur totam fugit omnis numquam id quam praesentium ut rerum unde itaque accusantium veniam sapiente consectetur dolor sequi cum, quisquam quod culpa, delectus deleniti. Quod beatae doloribus corrupti?
+                Id atque eius mollitia rem dicta saepe eveniet minus error veniam perspiciatis, nihil magnam voluptatibus, nulla, nobis vero vel consequuntur amet. Quam corporis aliquam molestiae vel velit quisquam commodi quas?
+                Delectus, enim accusamus ullam dolorum qui dolore provident tempore nisi doloribus distinctio excepturi doloremque! Rerum distinctio doloribus dignissimos quibusdam voluptas quaerat illo fuga laboriosam quae, aperiam magni. Non, enim voluptatem!</p>
+            </article>
+
+            <article>
+                <h5>Articulo #3</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit suscipit, fugit inventore deleniti minus vel exercitationem, ratione repudiandae cum iste nemo sit, quo veniam accusantium tempora asperiores nulla dolores soluta.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda natus reiciendis iste fugiat nisi harum dolores ducimus odio nostrum vitae officia, repudiandae, ut dolorum, ex deserunt aspernatur doloribus explicabo?
+                Ullam dignissimos eaque non ea soluta minus? Amet alias possimus cumque, beatae aspernatur commodi maxime optio. Ducimus saepe dolore fugit rerum, corporis labore deleniti aliquam repudiandae reiciendis consequatur molestiae consectetur.
+                Quidem quibusdam consequatur totam fugit omnis numquam id quam praesentium ut rerum unde itaque accusantium veniam sapiente consectetur dolor sequi cum, quisquam quod culpa, delectus deleniti. Quod beatae doloribus corrupti?
+                Id atque eius mollitia rem dicta saepe eveniet minus error veniam perspiciatis, nihil magnam voluptatibus, nulla, nobis vero vel consequuntur amet. Quam corporis aliquam molestiae vel velit quisquam commodi quas?
+                Delectus, enim accusamus ullam dolorum qui dolore provident tempore nisi doloribus distinctio excepturi doloremque! Rerum distinctio doloribus dignissimos quibusdam voluptas quaerat illo fuga laboriosam quae, aperiam magni. Non, enim voluptatem!</p>
+                <iframe width="40%" height="315" src="https://www.youtube.com/embed/fatqCPfr_NQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </article>
+
+            <article>
+                <h5>Articulo #4</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit suscipit, fugit inventore deleniti minus vel exercitationem, ratione repudiandae cum iste nemo sit, quo veniam accusantium tempora asperiores nulla dolores soluta.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita assumenda natus reiciendis iste fugiat nisi harum dolores ducimus odio nostrum vitae officia, repudiandae, ut dolorum, ex deserunt aspernatur doloribus explicabo?
+                Ullam dignissimos eaque non ea soluta minus? Amet alias possimus cumque, beatae aspernatur commodi maxime optio. Ducimus saepe dolore fugit rerum, corporis labore deleniti aliquam repudiandae reiciendis consequatur molestiae consectetur.
+                Quidem quibusdam consequatur totam fugit omnis numquam id quam praesentium ut rerum unde itaque accusantium veniam sapiente consectetur dolor sequi cum, quisquam quod culpa, delectus deleniti. Quod beatae doloribus corrupti?
+                Id atque eius mollitia rem dicta saepe eveniet minus error veniam perspiciatis, nihil magnam voluptatibus, nulla, nobis vero vel consequuntur amet. Quam corporis aliquam molestiae vel velit quisquam commodi quas?
+                Delectus, enim accusamus ullam dolorum qui dolore provident tempore nisi doloribus distinctio excepturi doloremque! Rerum distinctio doloribus dignissimos quibusdam voluptas quaerat illo fuga laboriosam quae, aperiam magni. Non, enim voluptatem!</p>
+            </article>
+        </div>
+</div>
+</body>
+</html>
